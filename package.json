@@ -4,13 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "compile:sass": "node-sass sass/main.scss dist/main.css -w"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "homepage": "https://qualley.github.io/portfolio",
   "dependencies": {
-    "gh-pages": "^2.2.0"
+    "gh-pages": "^2.2.0",
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.1"
   }
 }
