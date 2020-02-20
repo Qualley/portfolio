@@ -53,12 +53,23 @@ body {
     height: 100vh;
 }
 
+#logo {
+    position: relative;
+    width: 100%;
+}
+
+.dots{
+    position: relative;
+    bottom: 100px;
+    left: 20%;
+}
+
 .logo-wrapper {
     position: relative;
-    width: 375px;
+    width: autopx;
     top: 47%;
     left: 50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%) scale(.8)
 }
 
 h1 {
