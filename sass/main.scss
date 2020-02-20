@@ -46,14 +46,15 @@
 
 @import "base/_reset.scss";
 @import "base/_typography";
+html {
+    overflow-x: hidden;
+}
 
 body {
     background-color: #0B0B0C;
     position: relative;
     height: 100vh;
     width: 100%;
-    overflow-x: hidden;
-    overflow-y: visible;
 }
 
 #logo {

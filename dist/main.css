@@ -129,13 +129,14 @@ p {
   color: #AAABB8;
   opacity: .04; }
 
+html {
+  overflow-x: hidden; }
+
 body {
   background-color: #0B0B0C;
   position: relative;
   height: 100vh;
-  width: 100%;
-  overflow-x: hidden;
-  overflow-y: visible; }
+  width: 100%; }
 
 #logo {
   position: relative;
