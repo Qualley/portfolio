@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "deploy": "gh-pages -d dist",
-    "compile:sass": "node-sass sass/main.scss dist/main.css -w"
+    "compile:sass": "node-sass sass/main.scss ./dist/main.css -w",
+    "prefix": "gulp styles",
+    "minify:css": "gulp minify-css"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +18,11 @@
     "live-server": "^1.2.1"
   },
   "devDependencies": {
+    "autoprefixer": "^9.7.4",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-postcss": "^8.0.0",
     "node-sass": "^4.13.1"
   }
 }

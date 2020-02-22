@@ -115,22 +115,11 @@ h2 {
   text-align: center;
   margin-top: 25px; }
 
-p {
-  color: white;
-  margin: 0 auto;
-  width: 100%;
-  font-weight: 700;
-  text-align: center;
-  font-family: montserrat;
-  font-size: 250px;
-  position: absolute;
-  top: 30vh;
-  z-index: -1;
-  color: #AAABB8;
-  opacity: .04; }
+html {
+  overflow-x: hidden; }
 
 body {
-  background-color: #0B0B0C;
+  background-color: #131415;
   position: relative;
   height: 100vh;
   width: 100%;
@@ -148,10 +137,10 @@ body {
 
 .logo-wrapper {
   position: relative;
-  width: autopx;
-  top: 47%;
+  width: 120%;
   left: 50%;
-  transform: translate(-50%, -50%) scale(0.8); }
+  top: 50%;
+  transform: translate(-50%, -50%) scale(0.7); }
 
 h1 {
   color: white; }
